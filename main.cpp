@@ -14,12 +14,11 @@ git add -A:
 git commit:
     takes a snap shot of the changes
 
-git commit -m:
+git commit -m "txt":
     Allow you to provide a string that allows you to add a comment
 
 git push:
     Takes local commits and creates copies of them and sends them to the cloud
-
 */
 
 #include <iostream>
@@ -28,7 +27,7 @@ using namespace std;
 int main(void) {
     int n;
     cout << "how many times would you like to say hello world?" << endl;
-    
+
     cin >> n;
 
     for(int i = 0;i < n; i++) {
