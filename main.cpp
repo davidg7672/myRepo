@@ -6,7 +6,7 @@ git clone:
     Repo is now a file in current directory
 
 git status:
-    Tells you the state of your Git Repo
+    Tells you the state of your Git local Repo
 
 git add -A:
     Adds everything to repo
@@ -19,6 +19,10 @@ git commit -m "txt":
 
 git push:
     Takes local commits and creates copies of them and sends them to the cloud
+
+git pull: 
+    Pulls data
+    
 */
 
 #include <iostream>
@@ -27,6 +31,7 @@ using namespace std;
 int main(void) {
     int n;
     cout << "how many times would you like to say hello world?" << endl;
+    cout << "go" << endl;
 
     cin >> n;
 
